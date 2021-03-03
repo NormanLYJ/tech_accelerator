@@ -1,0 +1,6 @@
+com/ust/esdemo/config/EasticSearchConfig.class
+com/ust/esdemo/controller/CrimeController.class
+com/ust/esdemo/model/Crime.class
+com/ust/esdemo/dao/CrimeDAO.class
+com/ust/esdemo/service/CrimeRecordService.class
+com/ust/esdemo/CrimeDataServicesApp.class
