@@ -1,0 +1,161 @@
+{
+	"mappings": {
+		"properties": {
+			"IUCR": {
+				"type": "text",
+				"fields": {
+					"keyword": {
+						"type": "keyword",
+						"ignore_above": 256
+					}
+				}
+			},
+			"_class": {
+				"type": "text",
+				"fields": {
+					"keyword": {
+						"type": "keyword",
+						"ignore_above": 256
+					}
+				}
+			},
+			"arrest": {
+				"type": "text",
+				"fields": {
+					"keyword": {
+						"type": "keyword",
+						"ignore_above": 256
+					}
+				}
+			},
+			"beat": {
+				"type": "long"
+			},
+			"block": {
+				"type": "text",
+				"fields": {
+					"keyword": {
+						"type": "keyword",
+						"ignore_above": 256
+					}
+				}
+			},
+			"caseNumber": {
+				"type": "text",
+				"fields": {
+					"keyword": {
+						"type": "keyword",
+						"ignore_above": 256
+					}
+				}
+			},
+			"communityArea": {
+				"type": "long"
+			},
+			"crimeId": {
+				"type": "text",
+				"fields": {
+					"keyword": {
+						"type": "keyword",
+						"ignore_above": 256
+					}
+				}
+			},
+			"date": {
+				"type": "date",
+				"fields": {
+					"keyword": {
+						"type": "keyword"
+					}
+				}
+			},
+			"description": {
+				"type": "text",
+				"fields": {
+					"keyword": {
+						"type": "keyword",
+						"ignore_above": 256
+					}
+				}
+			},
+			"district": {
+				"type": "long"
+			},
+			"domestic": {
+				"type": "text",
+				"fields": {
+					"keyword": {
+						"type": "keyword",
+						"ignore_above": 256
+					}
+				}
+			},
+			"fbiCode": {
+				"type": "text",
+				"fields": {
+					"keyword": {
+						"type": "keyword",
+						"ignore_above": 256
+					}
+				}
+			},
+			"latitude": {
+				"type": "float"
+			},
+			"location": {
+				"type": "text",
+				"fields": {
+					"keyword": {
+						"type": "keyword",
+						"ignore_above": 256
+					}
+				}
+			},
+			"locationDescription": {
+				"type": "text",
+				"fields": {
+					"keyword": {
+						"type": "keyword",
+						"ignore_above": 256
+					}
+				}
+			},
+			"primaryType": {
+				"type": "text",
+				"fields": {
+					"keyword": {
+						"type": "keyword",
+						"ignore_above": 256
+					}
+				}
+			},
+			"ward": {
+				"type": "long"
+			},
+			"xCoordinate": {
+				"type": "long"
+			},
+			"yCoordinate": {
+				"type": "long"
+			},
+			"year": {
+				"type": "long"
+			}
+		}
+	},
+	"settings": {
+		"index": {
+			"routing": {
+				"allocation": {
+					"include": {
+						"_tier_preference": "data_content"
+					}
+				}
+			},
+			"number_of_shards": "1",
+			"provided_name": "crime_data",
+			"number_of_replicas": "1",
+			"uuid": "rlINEKvLSBmh2R9nINuBKw"
+		}
+	}
+}
